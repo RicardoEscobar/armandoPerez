@@ -24,11 +24,31 @@ var main = function() {
   $('.nav li').click(function() {
     var category = $(this).attr('class');
 
-    $('.nav li').removeClass('active');
-    $(this).addClass('active');
+    switch (category) {
+      case "nav-all":
+        $('.nav li').removeClass('active');
+        $(this).addClass('active');
+        break;
+      case "nav-consumer":
+        $('.nav li').removeClass('active');
+        $(this).addClass('active');
+        break;
+      case "nav-mobile":
+        $('.nav li').removeClass('active');
+        $(this).addClass('active');
+        break;
+      case "nav-commerce":
+        $('.nav li').removeClass('active');
+        $(this).addClass('active');
+        break;
+      case "nav-enterprise":
+        $('.nav li').removeClass('active');
+        $(this).addClass('active');
+        break;
 
+      default:
 
-
+    }
 
   });
 };
