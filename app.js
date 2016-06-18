@@ -36,13 +36,16 @@ var main = function() {
         $(".consumer").addClass("selected");
         break;
       case "nav-mobile":
-
+        $(".thumbnail").removeClass("selected");
+        $(".mobile").addClass("selected");
         break;
       case "nav-commerce":
-
+        $(".thumbnail").removeClass("selected");
+        $(".commerce").addClass("selected");
         break;
       case "nav-enterprise":
-
+        $(".thumbnail").removeClass("selected");
+        $(".enterprise").addClass("selected");
         break;
 
       default:
