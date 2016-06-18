@@ -29,7 +29,7 @@ var main = function() {
 
     switch (category) {
       case "nav-all":
-
+        $(".thumbnail").removeClass("selected");
         break;
       case "nav-consumer":
         $(".thumbnail").removeClass("selected");
